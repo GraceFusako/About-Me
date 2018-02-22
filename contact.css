@@ -1,0 +1,63 @@
+html {
+    font-family: "Lucida Console";
+    color: white;
+}
+body {
+    background-image: url(https://wallpapercave.com/wp/0Rjh2Oo.jpg);
+    font-size: 20px;
+    margin: 50px;
+}
+#Title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+#seperation {
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    text-indent: 50px;
+}
+input {
+    width: 200px;
+    height: 150px;
+    border-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    font-family: "Lucida Console";
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    right: 44%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+    background-color:black;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
