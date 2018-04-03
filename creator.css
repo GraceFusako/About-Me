@@ -2,24 +2,29 @@ html {
     font-family: "Lucida Console";
     color: white;
 }
+
 body {
     background-image: url(https://wallpapercave.com/wp/0Rjh2Oo.jpg);
     font-size: 20px;
     margin: 50px;
 }
+
 #Title {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
     padding: 20px;
 }
+
 #seperation {
     font-size: 40px;
     text-align: center;
 }
-p {
+
+div {
     text-indent: 50px;
 }
+
 input {
     width: 200px;
     height: 150px;

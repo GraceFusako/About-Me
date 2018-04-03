@@ -11,15 +11,32 @@
                     <li><a href="creator.html">About the Creator</a></li>
                     <li><a href="contact.html">Contact Me</a></li>
             </ul><br>
+            
             <div id="Title2">Can you save your son from the Origami Killer?</div> <br>
             <div id="seperation">---</div>
 
-            <p id="paragraph">Shaun Mars has gone missing. It is suspected that he has been taken by the Origami Killer. You have been sent a box of origami figures, each of them containing a task that must be completed to discover the address that Shaun Mars is being held. You have 5 days to find him. Good luck.</p>
+            <div id="paragraph">Shaun Mars has gone missing. It is suspected that he has been taken by the Origami Killer. You have been sent a box of origami figures by the killer, each of them containing a task that must be completed to discover the address that Shaun Mars is being held. You have 5 days to find him. Good luck.</div>
+            <div id="paragraph2"></div> <br> <br>
+            <div id="address"></div>
             
-            <input type="button" value="Start" onclick="changeText()" id="start" />
-            
+            <input type="button" value="Start" onclick="begin()" id="start" />
+            <input type="button" value="Bear" onclick="chooseBear()" id="bear" />
+            <input type="button" value="Butterfly" onclick="changeText()" id="butterfly" />
+            <input type="button" value="Lizard" onclick="changeText()" id="lizard" />
+            <input type="button" value="Shark" onclick="changeText()" id="shark" />
+            <input type="button" value="Rat" onclick="changeText()" id="rat" />
+            <input type="button" value="Next" onclick="bearNext()" id="nextbear"/>
+            <input type="button" value="Accept" onclick="bearAccept()" id="acceptbear"/>
+            <input type="button" value="Refuse" onclick="bearRefuse()" id="refusebear"/>
+            <input type="button" value="Go!" onclick="bearWin()" id="gobear"/>
+            <input type="button" value="Bail" onclick="bearLose()" id="bailbear"/>
+            <input type="button" value="Retry" onclick="startOver()" id="retry"/>
+
+            <input type="text" name="inputaddress" placeholder="Address" id="inputaddress">
+            <input type="button" value="Search" onclick="compareAddress()" id="compare"/>
+
             <audio autoplay>
-                    <source src="heavyrain.mp3" type="audio/mpeg">
+                    <source src="" type="audio/mpeg">
             </audio>
             <script src="aboutme.js"></script>
         </body>
